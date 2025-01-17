@@ -1,0 +1,54 @@
+/* used during development for spacing */
+.header-container {
+    border: 1px solid black;
+    padding: 0 20px;
+}
+
+.header-left {
+    border: 2px solid red;
+}
+
+.header-right {
+    border: 2px solid blue;
+}
+
+* {
+    color:#191918;
+    font-family: 'Inter';
+}
+
+a {
+    text-decoration: none;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.navbar-item {
+    display: inline;
+}
+
+.navbar-item:not(:last-child)::after {
+    content: "|";
+    margin: 0 10px;
+}
